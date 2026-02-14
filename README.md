@@ -4,11 +4,11 @@
 [![Platform](https://img.shields.io/badge/Platform-RK3588%20RKNN-blue)]()
 [![Language](https://img.shields.io/badge/Language-Russian%20%7C%20English%20%7C%20Chinese-green)]()
 
-**[Русский](README_RU.md)**
+**[Русский](README_RU.md)** | **[中文](README_ZH.md)**
 
 Run CosyVoice3 text-to-speech with **Russian voice cloning** on RK3588 built-in NPU (no external accelerator required).
 
-This is the first known open-source project running CosyVoice3 on RK3588 RKNN.
+
 
 ## Features
 

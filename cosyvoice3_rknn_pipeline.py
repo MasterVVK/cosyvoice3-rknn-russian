@@ -3,7 +3,7 @@
 CosyVoice3 full TTS pipeline on RK3588 (CM3588 NAS Kit).
 
 No PyTorch required — runs entirely on numpy + ONNX Runtime + RKNN.
-First known open-source CosyVoice3 implementation on RK3588 RKNN.
+
 
 Components:
   1. LLM (Qwen2-0.5B) → ONNX Runtime CPU FP32 (best quality)

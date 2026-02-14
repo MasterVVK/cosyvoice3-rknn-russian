@@ -4,11 +4,11 @@
 [![Platform](https://img.shields.io/badge/Platform-RK3588%20RKNN-blue)]()
 [![Language](https://img.shields.io/badge/Language-Russian%20%7C%20English%20%7C%20Chinese-green)]()
 
-**[English](README.md)**
+**[English](README.md)** | **[中文](README_ZH.md)**
 
 Синтез речи CosyVoice3 с **клонированием русского голоса** на встроенном NPU RK3588 (без внешнего ускорителя).
 
-Первый известный open-source проект, запускающий CosyVoice3 на RK3588 RKNN.
+
 
 ## Возможности
 
