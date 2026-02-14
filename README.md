@@ -35,7 +35,7 @@ Text -> [Tokenizer] -> [LLM ONNX CPU] -> [Flow DiT RKNN NPU] -> [HiFT ONNX CPU] 
 ## Hardware
 
 Tested on:
-- **[FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588)** NAS Kit — compute module (RK3588 SoC, 8 GB RAM) + NAS carrier board with 4x M.2 NVMe slots, 2.5 GbE
+- **[FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588)** NAS Kit — compute module (RK3588 SoC, 32 GB RAM) + NAS carrier board with 4x M.2 NVMe slots, 2.5 GbE
 
 Uses the RK3588's integrated 6 TOPS NPU — no external accelerator card needed.
 

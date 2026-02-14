@@ -6,8 +6,8 @@ Step-by-step installation of CosyVoice3 RKNN pipeline on RK3588.
 
 ### Hardware
 
-- **Board**: [FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588) NAS Kit (RK3588, 8 GB+ RAM)
-- **RAM**: 8 GB recommended (4 GB minimum)
+- **Board**: [FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588) NAS Kit (RK3588, 32 GB+ RAM)
+- **RAM**: 32 GB recommended (4 GB minimum)
 - **Storage**: ~5 GB for models
 
 ### Software

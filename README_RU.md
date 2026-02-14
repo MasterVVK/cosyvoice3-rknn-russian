@@ -35,7 +35,7 @@
 ## Железо
 
 Протестировано на:
-- **[FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588)** NAS Kit — вычислительный модуль (RK3588 SoC, 8 ГБ RAM) + NAS-несущая плата с 4x M.2 NVMe, 2.5 GbE
+- **[FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588)** NAS Kit — вычислительный модуль (RK3588 SoC, 32 ГБ RAM) + NAS-несущая плата с 4x M.2 NVMe, 2.5 GbE
 
 Используется встроенный NPU RK3588 (6 TOPS) — внешний ускоритель не нужен.
 

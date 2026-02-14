@@ -33,7 +33,7 @@
 ## 硬件
 
 测试平台：
-- **[FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588)** NAS 套件 — 计算模块（RK3588 SoC，8 GB RAM）+ NAS 载板，4x M.2 NVMe，2.5 GbE
+- **[FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588)** NAS 套件 — 计算模块（RK3588 SoC，32 GB RAM）+ NAS 载板，4x M.2 NVMe，2.5 GbE
 
 使用 RK3588 集成 6 TOPS NPU — 无需外部加速器。
 
