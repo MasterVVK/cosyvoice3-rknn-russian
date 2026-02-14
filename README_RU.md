@@ -35,17 +35,15 @@
 ## Железо
 
 Протестировано на:
-- **[FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588)** NAS Kit (RK3588 SoC, встроенный NPU 6 TOPS)
+- **[FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588)** NAS Kit — вычислительный модуль (RK3588 SoC, 8 ГБ RAM) + NAS-несущая плата с 4x M.2 NVMe, 2.5 GbE
 
-Внешняя NPU карта не нужна — используется встроенный NPU RK3588.
-
-> Подойдёт любая плата на RK3588: Orange Pi 5, Rock 5B, Radxa ROCK 5A и т.д.
+Используется встроенный NPU RK3588 (6 TOPS) — внешний ускоритель не нужен.
 
 ## Быстрый старт
 
 ### Требования
 
-- **Железо**: Любая плата на RK3588 (CM3588, Orange Pi 5, Rock 5B и т.д.)
+- **Железо**: [FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588) NAS Kit (RK3588, 8 ГБ+ RAM)
 - **ОС**: Linux с RKNN driver 0.9.8+
 - **Python**: 3.8+ с `numpy`, `scipy`, `onnxruntime`, `transformers`
 - **RKNN**: `rknn-toolkit-lite2` 2.3+ (для инференса на NPU)

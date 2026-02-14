@@ -33,17 +33,15 @@
 ## 硬件
 
 测试平台：
-- **[FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588)** NAS 套件（RK3588 SoC，内置 6 TOPS NPU）
+- **[FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588)** NAS 套件 — 计算模块（RK3588 SoC，8 GB RAM）+ NAS 载板，4x M.2 NVMe，2.5 GbE
 
-无需外部 NPU 卡 — 使用 RK3588 集成 NPU。
-
-> 任何基于 RK3588 的开发板均可使用：Orange Pi 5、Rock 5B、Radxa ROCK 5A 等。
+使用 RK3588 集成 6 TOPS NPU — 无需外部加速器。
 
 ## 快速开始
 
 ### 前置条件
 
-- **硬件**：任何基于 RK3588 的开发板
+- **硬件**：[FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588) NAS 套件（RK3588，8 GB+ RAM）
 - **系统**：Linux，RKNN 驱动 0.9.8+
 - **Python**：3.8+，安装 `numpy`、`scipy`、`onnxruntime`、`transformers`
 - **RKNN**：`rknn-toolkit-lite2` 2.3+

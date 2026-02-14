@@ -6,9 +6,7 @@ Step-by-step installation of CosyVoice3 RKNN pipeline on RK3588.
 
 ### Hardware
 
-- **Board**: Any RK3588-based board with NPU support
-  - Tested: [FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588) NAS Kit
-  - Should work: Orange Pi 5, Rock 5B, Radxa ROCK 5A, etc.
+- **Board**: [FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588) NAS Kit (RK3588, 8 GB+ RAM)
 - **RAM**: 8 GB recommended (4 GB minimum)
 - **Storage**: ~5 GB for models
 

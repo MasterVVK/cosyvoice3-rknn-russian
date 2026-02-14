@@ -35,17 +35,15 @@ Text -> [Tokenizer] -> [LLM ONNX CPU] -> [Flow DiT RKNN NPU] -> [HiFT ONNX CPU] 
 ## Hardware
 
 Tested on:
-- **[FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588)** NAS Kit (RK3588 SoC, 6 TOPS NPU built-in)
+- **[FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588)** NAS Kit — compute module (RK3588 SoC, 8 GB RAM) + NAS carrier board with 4x M.2 NVMe slots, 2.5 GbE
 
-No external NPU card needed — uses the RK3588's integrated NPU.
-
-> Any RK3588-based board should work: Orange Pi 5, Rock 5B, Radxa ROCK 5A, etc.
+Uses the RK3588's integrated 6 TOPS NPU — no external accelerator card needed.
 
 ## Quick Start
 
 ### Prerequisites
 
-- **Hardware**: Any RK3588-based board (CM3588, Orange Pi 5, Rock 5B, etc.)
+- **Hardware**: [FriendlyElec CM3588](https://wiki.friendlyelec.com/wiki/index.php/CM3588) NAS Kit (RK3588, 8 GB+ RAM)
 - **OS**: Linux with RKNN driver 0.9.8+
 - **Python**: 3.8+ with `numpy`, `scipy`, `onnxruntime`, `transformers`
 - **RKNN**: `rknn-toolkit-lite2` 2.3+ (for NPU inference)
