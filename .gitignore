@@ -1,0 +1,30 @@
+# Models (too large for git, see docs/MODEL_CONVERSION.md)
+*.rknn
+*.rkllm
+*.onnx
+*.bin
+
+# Large numpy files (model weights)
+cosyvoice3_embeddings/
+cosyvoice3-llm-onnx/
+cosyvoice3-flow-components/
+cosyvoice3-hift-components/
+cosyvoice3-rknn-models/
+cosyvoice3_qwen2_for_rkllm/
+cosyvoice3-onnx/
+
+# Audio
+*.wav
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
